@@ -24,6 +24,11 @@ build: true
 tests:
     - make check
 
+branches:
+  - master
+  - auto
+  - try
+
 # OPTIONAL
 # Time to allow before aborting tests. Must satisfy regex
 # '[0-9]+[smh]'. If omitted, defaults to '2h', which is the
